@@ -6,5 +6,5 @@ digit2 = number2 % 10
 digit3 = inBetween % 10;
 	
 sum = digit1 + digit2 + digit3;
-print(f"Result of sum is"  {sum})
+print("Result of sum is" , sum)
 			

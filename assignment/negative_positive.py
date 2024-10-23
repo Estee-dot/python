@@ -8,17 +8,17 @@ while count <= 5:
     if integer > 0:
         positive += 1
 			
-    else if integer < 0:
+    if integer < 0:
         negative += 1
 			
     else:
-        zero += 1;
-            count++
+        zero += 1
+        count += 1
 
 		
-print("the number of positive is: " , positive);
-print("the number of negative is: " , negative);
-print("the number of zero is: " , zero);
+print("the number of positive is: " , positive)
+print("the number of negative is: " , negative)
+print("the number of zero is: " , zero)
 		
 	
 	
