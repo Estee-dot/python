@@ -2,8 +2,8 @@ number = input("enter a five digit number: ")
 num = ""
 if number.isdigit():
     if len(number) == 5:
-        for i in number:
-            num = i + num
+        for count in number:
+            num = count + num
         else:
             if num == number:
                 print(num)
