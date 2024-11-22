@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Arithmetric{
+		public static void main(String[] args){
+		System.out.print("Enter first number: ");
+		int firstNumber = input.nextInt();
+
+		System.out.print("Enter second number: ");
+		int secondNumber = input.nextint();
+
+		int squaredFirstNumber = firstNumber * firstNumber;
+		System.out.printf("The square of the first number is %d" , squaredFirstNumber);
+
+		int squaredSecondNumber = secondNumber * secondNumber;
+		System.out.printf("The square of the second number is %d" , squaredSecondNumber);
+
+		int sumOfSquares = squaredFirstNumber + squaredSecondNumber;
+		System.out.printf("The Sum of their squares is %d" , sumOfSquares);
+
+		int difference = squaredFirstNumber - squaredSecondNumber;
+
+
+	}
+
+
+}
