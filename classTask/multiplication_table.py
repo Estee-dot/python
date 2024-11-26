@@ -1,6 +1,6 @@
 number = int(input("Enter number of terms: "))
 
-for count in range (0, 5):
+for multiple in range (1, 11):
     product = number * multiple
-    print(f"{number} * {multiple} = {product}") 
+    print(f" {number} * {multiple} = {product}") 
 	

@@ -1,0 +1,9 @@
+pseudo code:
+- prompt the user to enter a number
+- store the number as "number"
+
+- using the def function, create a variable "get_even"
+- using for loop, set the range as 1, 11
+- compare if the "number" % 2 = 0
+- if yes, display " even number"
+- else, display "odd number"

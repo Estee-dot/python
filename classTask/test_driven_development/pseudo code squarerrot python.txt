@@ -1,0 +1,25 @@
+pseudo code:
+- prompt the user to enter a number
+- save the number as "number"
+
+- if "number" is divisible by 5 == 0
+- find the squareroot
+- return squareroot
+
+- else: 
+- divide "value" % 5
+- return remainder
+
+pseudo code 2:
+-prompt the user to enter investment amount
+- save as "investment_amount"
+
+- prompt the user to enter monthly interest rate
+- save as "monthly_interest_rate"
+
+-prompt the user to enter number of years
+- save as "years"
+
+calaculate future investment using investment_amount * 1+monthly_interest_rate)** number_of_months
+
+ 

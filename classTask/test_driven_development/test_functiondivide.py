@@ -43,7 +43,7 @@ class TestDivisionOrSquare(unittest.TestCase):
 	def test_that_get_investment_function_detects_string(self):
 		self.assertRaises(TypeError, functioninvest.get_investment, "DivineBigchicken", "chicken", "cowhead")
 
-
+	
 
 
 	

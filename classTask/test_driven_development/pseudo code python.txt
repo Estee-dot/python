@@ -1,0 +1,13 @@
+pseudo code:
+-Prompt the user to enter a number
+- save the number as "first_number"
+
+- prompt the user to enter another number
+- save the number as "second_number"
+
+- create a variable called 'number' 
+- using for loop, for number in range
+
+- if first_number, second_number in int and float 
+- return first_number and second_number
+- Display the result

@@ -1,8 +1,7 @@
-for(int multiple = 1; multiple < 10; multiple++):
-    for(int times = 1; times < 10; times++):
-        int product = multiple * times
-print(f "%d * %d = %d\t" , {times}, {multiple}, {product})
-			
+for multiple in range(1, 10):
+    for times in range (1, 10):
+        product = multiple * times
+    print(f"{multiple} * {times} = {product}", end = "   ")		
 print();
 
 		

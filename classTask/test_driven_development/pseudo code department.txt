@@ -1,0 +1,20 @@
+pseudo code: department:
+
+- prompt the input your department(IT, HR, Finance)
+- collect the input 
+- store as "role"
+
+
+- switch(rank) 
+- if 1. IT
+- display case 1: Manager
+
+- if 2.HR
+- display case 2: Analyst
+
+- if the entered number 3
+- display case 2: Intern
+
+- if the entered number 4
+- display case 2: Participant ribbon
+

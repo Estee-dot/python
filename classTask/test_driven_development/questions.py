@@ -1,24 +1,35 @@
 import random
-def get_math_game(questions):
+def get_math_game():
 	response = 0
-	failed = [ ]
-	postitive counter = 0
-	negative counter = 0
+	right_answer = [ ]
+	positive_counter = 0
+	negative_counter = 0
 	counter = 0
-	sign = ["+","+","+","+","+", "-","-", "*","*","*"]
+	sign = ["+","+","+","+","+","*","*","*","-","-"]
 
-while counter <= 10:
-	answer1 = random.randrange(1, 1000)
-	answer2 = random.randInt(1, 1000 )
-	for sign in count(0,1):
-		response = input(f"{answer1} [0] {answer2}")  
-	
-	if {answer1} [0] {answer2} == response:
-		print("correct answer")
-		positive counter += 1
+	while counter <= 1:
+		for symbol in sign:
+			answer1 = random.randrange(1, 1000)
+			answer2 = random.randrange(1, 1000 )
 
-	else:
-		negative counter += 1
+			response = input(f"what is {answer1} {symbol} {answer2}: ")  
+			if response == (f"{answer1} {symbol} {answer2}"):
+				positive_counter += 1
+
+			else:
+				negative_counter += 1
+				right_answer.append(f"{counter+1} The right answer is {answer1} + {answer2}")
+		counter +=1
+
+	print("The right answer is : ")
+	for answer in right_answer:
+		print(f"{answer}")
+	return(f"The number of questions answered correctly is {positive_counter} \nThe number of questions answered wrongly are {negative_counter}")
+
+
+print(get_math_game())
+
+
 
 	 
 
