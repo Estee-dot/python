@@ -40,7 +40,6 @@ def get_SquareOfIntegers(integer):
 def get_Palindrome(number):
 	for count in number:
 		
-	
 
 def get_FactorialOfInteger(integer):
 	 factorial = 1

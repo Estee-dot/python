@@ -11,7 +11,7 @@ def get_Reversed_List(numbersReversed):
 		
 
 def get_Element_Occurance(number, specialValue):
-	for index in len(number): 
+	for index in number: 
 		if number[index] == specialValue:
 			return true
 	return false;
@@ -39,63 +39,45 @@ def get_Total(numbers):
 	
 def get_Palindrome(text):
 	reversed = "";
-	for letter in text; letter++){
-		reversed = text.charAt(letter) + reversed;
-		}
-			if(reversed.equals(text)){
-				return true;
-			}
-			return false;
-	}
+	for letter in text:
+		reversed = text + reversed		}
+		if reversed.equals(text):
+			return true
+		return false
 
-	public static void printSumOfNumbersOne(int[] numbers){
-		int sum = 0;
-		for(int number : numbers){
-			sum += number;
-		}
-		System.out.print(sum);
-	}
-
-	public static void printSumOfNumbersTwo(int[] numbers){
-		int counter = 0;
-		int sum = 0;
-		while(counter < numbers.length){
-			sum += numbers[counter];
-		counter++;
-		}
-		System.out.print(sum);
-	}
-
-	public static void printSumOfNumbersThree(int[] numbers){
-		int counter = 0;
-		int sum = 0;
-
-		do{
-			sum += numbers[counter];
-		counter++;
-		}
-		while(counter < numbers.length);
-		System.out.print(sum);
-	}
-
-	public static int[] printAddedList(int number){
-		String newNumber = "";
-		newNumber += number;
-		int[] numbers = new int[newNumber.length()];
-
-		for (int index = 0; index < newNumber.length(); index++) {
-			int remainder = number % 10;
-			numbers[(newNumber.length() - 1) - index] = remainder;
-			number = number / 10;
-		}
-
-		return numbers;
-
-
-
-	}
+def get_SumOfNumbersOne(numbers):
+	sum = 0
+	for number in numbers:
+		sum += number
+	print(sum)
 	
 
+def get_SumOfNumbersTwo(numbers):
+	counter = 0
+	sum = 0
+	while counter < numbers:
+		sum += numbers[counter]
+		counter++;
+	print(sum)
 
 
-}
+def get_SumOfNumbersThree(numbers):
+	counter = 0
+	sum = 0
+	do{
+		sum += numbers[counter];
+	counter++
+	while counter < numbers:
+		print(sum)
+	
+
+def get_AddedList(number):
+	newNumber = ""
+	newNumber += number
+	numbers = new int[len(newNumber)]
+
+	for index in newNumber:
+		remainder = number % 10
+		numbers[(len(newNumber)- 1) - index] = remainder
+			number = number / 10
+	return numbers;
