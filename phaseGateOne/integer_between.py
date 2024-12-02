@@ -2,8 +2,9 @@
 
 #- prompt the user to enter an integer between 0 and 1000
 #- convert the number to string
-#- create a for loop that loops through the number the user enters
-#- using the .isdigits() method to separate the numbers
+#- create a for loop that loops through the number in string
+#- cast the number and sum
+#- print sum
 
 
 
