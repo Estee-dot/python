@@ -1,3 +1,17 @@
+#pseudo code: Generate number:
+
+#- using the random function generate two numbers
+#- initialize sum to 0
+#- prompt the user to calculate the sum of the two integers 
+#- collect the result - store as sum 
+#- if answer == generated_answer
+#- print True
+#- else print false
+
+
+
+
+
 import random 
 
 sum = 0

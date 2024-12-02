@@ -12,7 +12,7 @@
 
 
 
-number = int(input("Enter an integer that is between 0 and 1000: ")
+number = int(input("Enter an integer that is between 0 and 1000: "))
 sum = 0
 newNumbers = str(number)
 for num in newNumbers:
