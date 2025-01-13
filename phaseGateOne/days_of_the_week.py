@@ -5,26 +5,26 @@
 #
 #display the future day of the week
 
-sum = 0
-while today_day >= 0:
-
+	week_Day = ["Sunday" ,"Monday" ,"Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+	
 	today_day = int(input("Enter today's day: "))
 	number_of_days = int(input("Enter the number of days elapased since today: "))
-	sum = today_day + number_of_days	
-	
-	if today_day == 0:
+	sum_of_days = today_day + number_of_days	
+	future_day_of_week = sum_of_days % 6
+
+	if future_day_of_week == 0:
 		print("Sunday")
-	elif today_day == 1:
+	elif future_day_of_week == 1:
 		print("Monday")
-	elif today_day == 2:
+	elif future_day_of_week == 2:
 		print("Tuesday")
-	elif today_day == 3:
+	elif future_day_of_week == 3:
 		print("Wednesday")
-	elif today_day == 4:
+	elif future_day_of_week == 4:
 		print("Thursday")
-	elif today_day == 5:
+	elif future_day_of_week == 5:
 		print("friday")	
-	elif today_day == 6:
+	elif future_day_of_week == 6:
 		print("Saturday")
 	
-print(f"Today is {} and the future day is {}")
+print(f"Today is {week_day[today_day]} and the future day is {week_Day[future_day_of_week]}")

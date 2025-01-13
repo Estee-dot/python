@@ -25,6 +25,7 @@ import functionaddition
 import functionstringcount
 import functiongetsum
 import functionvowelsremoved
+import find_number
 
 class TestSumEvenFunction(unittest.TestCase):
 	def test_that_get_even_numbers_exist(self):
@@ -262,6 +263,12 @@ class TestSumEvenFunction(unittest.TestCase):
 	def test_that_get_vowels_removed_exist(self):
 		x = ["orange","apple","ice","Beans","Rice"]
 		functionvowelsremoved.get_vowels_removed(x)
+
+	def test_that_find_number_exist(self):
+		x = [12, 17, 24, 32, 14]
+		functionvowelsremoved.get_vowels_removed(x)
+
+
 
 
 

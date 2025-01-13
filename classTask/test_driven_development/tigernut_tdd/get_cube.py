@@ -13,6 +13,4 @@ print(cube_list())
 
 def get_cube(numbers):
 	return[(num**3) for num in numbers]
-
-
 print(get_cube(uzo()))

@@ -5,3 +5,6 @@ nested_dict = {
 	nested_dict["person1"]["city"] = "New York"
 
 print(nested_dict)
+
+
+new_data = {"city" : "Los Angeles", "profession": "Engineer"}

@@ -6,10 +6,22 @@
 #- password must contain symbols
 #- len(password) == 16 characters
 
+import random
+import string
 
-def get_secure_password(password : str):
-	symbols =[!, @ , #, $, %, ^, &, *, ~, +, -, _, ", ?, |]
-	number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-	letters = letter.upper() 
+def get_secure_password():
+	alphabet_lower = [i for i in string.ascii_lowercase]
+	symbols = [i for i in string.punctuation]
+	number = [i for i in string.digits]
+	alphabet_upper = [i for i in string.ascii_uppercase]
+
+	password = ""
+	for _ in range(4):
+		password += random.choice(alphabet_lower)
+		password += random.choice(symbols)
+		password += random.choice(number)
+		password += random.choice(alphabet_upper)
+	print(password)
+	return random.shuffle(password)
 	
-	
+print(get_secure_password())
