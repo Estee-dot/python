@@ -11,7 +11,7 @@ def get_lists_in_list(integers : list):
 			listOne.append(integers[index1])
 			index1 += 1
 		if count > length // 2:
-			listTwo.append(intergers[index1])
+			listTwo.append(integers[index1])
 			index1 += 1
 	result = [listOne, listTwo]
 	return result
