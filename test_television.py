@@ -1,5 +1,5 @@
 import unittest
-from classTask import Television
+from __init__ import Television
 
 class TestTelevisionFunction(unittest.TestCase):
     def test_that_tv_is_off_by_default(self):
